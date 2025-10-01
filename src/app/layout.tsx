@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Ulisha Limited",
     images: [
       {
-        url: "https://ulisha.com/og-image.png", // replace with your actual OG image
+        url: "https://ulisha.com/og-image.png", 
         width: 1200,
         height: 630,
         alt: "Ulisha Limited",

@@ -185,7 +185,7 @@ function Hero() {
   );
 }
 
-// ------------------- SECTIONS -------------------
+
 function SectionDivider() {
   return (
     <div className="relative w-full overflow-hidden">
@@ -265,12 +265,12 @@ function Contact() {
   );
 }
 
-// ------------------- FOOTER -------------------
+
 function Footer() {
   return (
      <footer className="bg-gradient-to-r from-blue-50 via-white to-orange-50 text-gray-700 py-12 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
-        {/* Logo + About */}
+        gi
         <div>
           <Logo />
           <p className="mt-4 text-sm text-gray-600 leading-relaxed">
@@ -280,7 +280,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Navigation */}
+      
         <div>
           <h3 className="text-lg font-semibold mb-4 text-gray-900">Company</h3>
           <ul className="space-y-2 text-sm">
@@ -293,7 +293,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
+       
         <div>
           <h3 className="text-lg font-semibold mb-4 text-gray-900">Get in Touch</h3>
           <ul className="space-y-3 text-sm text-gray-600">
@@ -303,7 +303,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
+      
         <div>
           <h3 className="text-lg font-semibold mb-4 text-gray-900">Stay Updated</h3>
           <p className="text-sm text-gray-600 mb-3">Subscribe to get the latest updates, offers, and news.</p>
@@ -323,7 +323,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+     
       <div className="border-t border-gray-200 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
         <p>© {new Date().getFullYear()} Ulisha Limited — RC: 8644622. All rights reserved.</p>
         <div className="flex gap-5">
@@ -335,7 +335,6 @@ function Footer() {
   );
 }
 
-// ------------------- PAGE -------------------
 export default function UlishaLanding() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
